@@ -4,7 +4,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer 
+    <footer
       id="comunidad"
       className="bg-dark"
       style={{
@@ -22,7 +22,7 @@ const Footer = () => {
         alignItems: 'center',
         gap: '3rem',
       }}>
-        
+
         {/* Branding header */}
         <div style={{ textAlign: 'center' }}>
           <h4 style={{
@@ -67,7 +67,7 @@ const Footer = () => {
             <p style={{ color: 'var(--color-cream-muted)', fontSize: '0.85rem', lineHeight: '1.7' }}>
               Sierra Negra, Puebla, México<br />
               Altitud: 1,500 msnm<br />
-              info@cafemixtla.com
+              238 156 7737
             </p>
           </div>
           <div>
